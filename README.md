@@ -1,13 +1,15 @@
-# Sample Hardhat Project
+# Here are the commands to run a Hardhat project:
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+# Install Hardhat:
+npm install --save-dev hardhat
 
-Try running some of the following tasks:
+# Initialize Hardhat:
+npx hardhat
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+# Compile contracts:
+npx hardhat compile
+
+# Run script:
+npx hardhat run scripts/<script_name>.js
+
+Remember to replace <script_name> with the actual name of your script file.
